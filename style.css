@@ -7,16 +7,36 @@
 .text{
 color: gray
 }
-.sing-up {
-    background-color: rgba(190, 196, 37, 0.932);
+/*.sing-up {
+   /* background-color: rgba(190, 196, 37, 0.932);
     color: rgb(249, 249, 249);
     font-size: 18px;
     width: 300px;
-    font-display: bold;
+    font-display: bold; 
+}*/
+
+.price {
+    display: grid;
+    grid-template-areas:
+    "area_1"
+    "area_2"
+    "area_3";
+    grid-template-columns:auto;
+    grid-template-rows: 50px 100vh auto;
 }
-.grid-2 {
+.area_1 {
+    grid-area: area_1;
+}
+.area_2 {
+    grid-area:area_2;
     background-color: rgba(9, 162, 196, 0.326);
 }
-.price {
-    text
+.area_3{
+    grid-area: area_3;
+}
+.area_1 {
+display: grid;
+grid-template-columns: 25% 25% 25%;
+grid-template-rows: 33.33 33.33 33.33 33.33;
+height: calc(100vh- 50px);
 }
