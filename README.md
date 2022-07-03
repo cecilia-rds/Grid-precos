@@ -4,10 +4,6 @@
 > Status do Projeto: :warning: (em desenvolvimwnto)
 
 
-Inspiração:
-https://devporai.com.br/5-projetos-frontend-para-melhorar-suas-habilidades/
-
-Objetivo final:
 
 
 ## Descrição do projeto 
@@ -17,7 +13,7 @@ Objetivo final:
 </p>
 
 
-## Acesso atraves do link:
+## Acesso através do link:
 
 https://cecilia-rds.github.io/Grid-precos/
 
