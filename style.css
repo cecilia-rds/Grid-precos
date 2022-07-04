@@ -1,10 +1,36 @@
+.price {
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-areas:
+        "area_1 area_1 area_1"
+        "area_2 area_2 area_2"
+        "area_3 area_3 area_3"; 
+
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100vh 50px;
+}
+.area_1_conteudo {
+    grid-area: area_1;
+
+
+}
+.area_2_conteudo {
+    grid-area:area_2;
+    background-color: rgba(27, 199, 119, 0.326); 
+  
+}
+.area_3_conteudo {
+    grid-area: area_3;
+    background-color: rgba(39, 145, 168, 0.326); 
+}
+
 .title {
     color: rgb(81, 171, 81);
 }
 .sub-title {
     color: rgba(190, 196, 37, 0.932);
 }
-.text{
+.area_2, .area_3 {
 color: gray
 }
 /*.sing-up {
@@ -14,29 +40,3 @@ color: gray
     width: 300px;
     font-display: bold; 
 }*/
-
-.price {
-    display: grid;
-    grid-template-areas:
-    "area_1"
-    "area_2"
-    "area_3";
-    grid-template-columns:auto;
-    grid-template-rows: 50px 100vh auto;
-}
-.area_1 {
-    grid-area: area_1;
-}
-.area_2 {
-    grid-area:area_2;
-    background-color: rgba(9, 162, 196, 0.326);
-}
-.area_3{
-    grid-area: area_3;
-}
-.area_1 {
-display: grid;
-grid-template-columns: 25% 25% 25%;
-grid-template-rows: 33.33 33.33 33.33 33.33;
-height: calc(100vh- 50px);
-}
