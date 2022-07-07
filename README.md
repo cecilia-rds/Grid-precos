@@ -1,7 +1,7 @@
 <h1>Grid de Preços</h1> 
 
 
-> Status do Projeto: :warning: (em desenvolvimwnto)
+> Status do Projeto: :heavy_check_mark: (Concluido)
 
 
 
